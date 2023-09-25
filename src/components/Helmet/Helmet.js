@@ -3,7 +3,7 @@
 import React from 'react'
 
 const Helmet = (props) => {
-    document.title = "SPA app - " + props.title;
+    document.title = "News - " + props.title;
     return <div className="w-100">{props.children}</div>;
 };
 
